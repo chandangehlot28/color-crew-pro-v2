@@ -1,0 +1,16 @@
+{
+  "name": "color-crew-pro-realtime",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Chandan's Card Club: realtime friends card game with host-independent rooms, chat, and WebRTC voice signaling.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}

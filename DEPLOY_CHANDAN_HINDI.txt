@@ -1,0 +1,20 @@
+CHANDAN'S CARD CLUB — V2 UPDATES
+
+Design:
+- Redesigned premium card-table UI, brighter card faces, better phone/tablet layout.
+- Rules panel stays beside chat in game view; on mobile use the Rules tab.
+- Chandan remains the fixed room-owner brand; players choose their own nickname.
+
+Host-independent online game:
+- The included Node + Socket.IO server owns the room, turns, card validation and chat.
+- Creator can leave; room does not close just because creator left.
+- Any connected player can start once at least 2 real players have joined.
+- If a player exits during an active round, a bot takes over their seat.
+
+Deploy:
+1) Deploy the full project (package.json, server.js, render.yaml, public/) as a Node Web Service on Render from GitHub.
+2) Copy the Render service URL.
+3) In the Netlify frontend package, edit public/config.js and put that URL inside SERVER_URL.
+4) Upload the updated frontend files to the EXISTING Netlify site. This preserves the existing Netlify URL.
+
+This chat has NOT deployed anything into the user's Netlify or Render account. The server must be deployed and the URL added to config.js before the new online code works from the existing Netlify URL.
