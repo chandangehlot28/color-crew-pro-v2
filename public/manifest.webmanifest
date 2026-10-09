@@ -1,0 +1,15 @@
+{
+  "name": "Chandan's Card Club — Color Crew",
+  "short_name": "Card Club",
+  "description": "Play card nights with friends, text chat and optional voice chat.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#090d19",
+  "theme_color": "#0b1020",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
